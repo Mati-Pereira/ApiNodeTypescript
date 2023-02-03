@@ -1,1 +1,5 @@
-console.log("Olá Mundo");
+import express from "express";
+const app = express();
+const port = 3000;
+
+app.listen(port, () => console.log(`Server está rodando na porta ${port}`));
